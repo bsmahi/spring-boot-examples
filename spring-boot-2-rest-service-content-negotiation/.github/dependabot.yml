@@ -9,21 +9,8 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 3
-
-    ignore:
-      - dependency-name: "*"
-        update-types:
-          - "version-update:semver-patch"
-          - "version-update:semver-major" 
-
-  # =========================
-  # Gradle dependencies
-  # =========================
- - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "deps:"
 
     ignore:
       - dependency-name: "*"

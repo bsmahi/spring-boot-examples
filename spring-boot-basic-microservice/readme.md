@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0-M1</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -37,7 +37,7 @@
     <description>Microservices with Spring Boot and Spring Cloud - Currency Conversion Service</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <spring-cloud.version>2025.0.0</spring-cloud.version>
     </properties>
 
@@ -48,7 +48,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
         <dependency>
@@ -294,7 +294,7 @@ public class SpringBootMicroserviceCurrencyConversionApplicationTests {
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0-M1</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -307,7 +307,7 @@ public class SpringBootMicroserviceCurrencyConversionApplicationTests {
     <description>Microservices with Spring Boot and Spring Cloud - Eureka Naming Server</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <spring-cloud.version>2025.0.0</spring-cloud.version> <!-- aka Jubilee -->
     </properties>
 
@@ -438,7 +438,7 @@ public class SpringBootMicroserviceEurekaNamingServerApplicationTests {
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0-M1</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -451,7 +451,7 @@ public class SpringBootMicroserviceEurekaNamingServerApplicationTests {
     <description>Microservices with Spring Boot and Spring Cloud - Forex Service</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <spring-cloud.version>2025.0.0</spring-cloud.version>
     </properties>
 
@@ -466,7 +466,7 @@ public class SpringBootMicroserviceEurekaNamingServerApplicationTests {
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
         <dependency>

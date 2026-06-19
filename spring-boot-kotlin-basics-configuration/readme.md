@@ -27,7 +27,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0-M1</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -40,7 +40,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
     <description>Spring Boot Tutorial - Application Configuration with Profiles and YAML</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <kotlin.version>1.7.10</kotlin.version>
     </properties>
 
@@ -55,7 +55,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
         <dependency>
