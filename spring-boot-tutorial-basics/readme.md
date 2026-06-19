@@ -28,7 +28,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.0-M1</version>
+        <version>4.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -41,7 +41,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
     <description>Spring Boot Tutorial - Basic Concept Examples</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
     </properties>
 
     <dependencies>
@@ -51,7 +51,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-tutorial-b
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
